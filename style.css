@@ -75,7 +75,7 @@
     font-family: Actor;
     font-size: 18px; /*tamanho*/
     text-align: center; /*alinhamento de texto ao centro*/
-    padding-top: 20px; /*preenchimento superior*/
+    padding-top: 25px; /*preenchimento superior*/
   }
   footer p {
     display: inline-block;
