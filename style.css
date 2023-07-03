@@ -18,13 +18,13 @@
   
   .menu ul { /*lista não ordenada dentro do menu*/
     text-align: center; /* alinha o texto ao centro */
-    padding-top: 68px; /*preenchimento superior*/
+    padding-top: 70px; /*preenchimento superior*/
   }
   
   .menu li {/*estilos para os itens de list, dentro da classe menu*/
     display: inline-block; /*são exibidos em linha*/ 
     font-family: Lily Script One;
-    font-size: 32px; /*tamanho */
+    font-size: 33px; /*tamanho */
   
   }
   
