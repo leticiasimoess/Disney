@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,30 +10,28 @@
       auto;/*define o cursor do mouse como uma imagem especificada por meio da propriedade "url"*/
   }
   
-
- header { /*define estilos para um elemento de cabeçalho no documento*/
-    width: 100%; /*largura*/
-    background-color: #1e1e1e; /*fundo de cor*/
-    height:30vh; /*altura*/
+  header {
+    width: 100%;
+    background: #1e1e1e;
+    height:25vh;
   }
   
-  .menu ul {/*lista não ordenada dentro do menu*/
+  .menu ul {
     text-align: center;
-    list-style: none;
-   
-    width: 30vw;/*largura*/
-  
+    padding-top: 53px;
   }
   
-.menu li {/*estilos para os itens de list, dentro da classe menu*/
-    display: inline-block; /*são exibidos em linha*/ 
+  .menu li {
+    display: inline-block;
     font-family: Lily Script One;
-    font-size: 33px; /*tamanho */
-
-
+    font-size: 32px;
+    margin-inline: 5% 10%;
+    
+  }
+  
   .menu li a {
-    color: white; /*cor*/
-    text-decoration: none; /*remove a decoração do link */
+    color: white;
+    text-decoration: none;
   }
   
   .banner img{
@@ -51,8 +49,6 @@
     align-content: center; /*o align-content é utilizado em contêineres flexíveis para alinhar e controlar o posicionamento do conteúdo no eixo transversal (vertical)
       quando há várias linhas de itens. Já o center é p/ centralizar o conteúdo verticalmente dentro do contêiner*/
     margin-bottom: 137px; /*espaçamento inferior*/
-    
-        
   }
   
   main li {
@@ -72,26 +68,26 @@
     border: 5px solid #000000; /*tamanho da borda*/
   }
 /* RODAPÉ */
- 
+  
   footer {
     width: 100%;
     background: #1e1e1e;
-    color: white; 
-    height: 167px;/*altura*/
+    color: white;
+    height: 157px;/*altura*/
     font-family: Actor;
-    font-size: 18px; 
+    font-size: 18px;
     text-align: center; /*alinhamento de texto ao centro*/
-    padding-top: 25px; /*preenchimento superior*/
+    padding-top: 22px; /*preenchimento superior*/
   }
   footer p {
     display: inline-block;
-    margin-right: 20px; /*margem direita */
+    margin-right: 20px;/*margem direita */
   }
   footer li,
   footer ul {
     display: inline-block;
   }
   footer li {
- 
+    vertical-align: middle;
     margin-right: 10px;/*margem direita */
   }
