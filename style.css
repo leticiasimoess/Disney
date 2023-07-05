@@ -21,7 +21,8 @@
     text-align: center;
     list-style: none;
     padding-top: 68px;
-     width: 20vw;
+    width: 30vw;
+   justify-content: space-around;
   }
   
 .menu li {/*estilos para os itens de list, dentro da classe menu*/
@@ -38,7 +39,7 @@
   .banner img{
     text-align: center; /* alinha o texto ao centro*/
     background-color: white;
-    height: 90vh;      
+    height: 80vh;      
     width: 100%;
   }
 
