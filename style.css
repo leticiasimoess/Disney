@@ -18,10 +18,10 @@
   }
   
   .menu ul { /*lista não ordenada dentro do menu*/
-    
-      list-style: none;
-        justify-content: space-around;
-        width: 30vw;
+    text-align: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 30vw;
   }
   
   .menu li {/*estilos para os itens de list, dentro da classe menu*/
