@@ -18,7 +18,7 @@
   
   .menu ul { /*lista não ordenada dentro do menu*/
     text-align: center; /* alinha o texto ao centro */
-    padding-top: 70px; /*preenchimento superior*/
+    padding-top: 68px; /*preenchimento superior*/
   }
   
   .menu li {/*estilos para os itens de list, dentro da classe menu*/
