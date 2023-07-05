@@ -42,7 +42,8 @@
     height: 90vh;      
     width: 100%;
   }
-  
+
+/*filmes em destaque*/
 
   .primeira-coluna {
     margin-top: 74px; /*é usado para definir a margem superior, especifica o espaço entre o elemento e o elemento pai acima dele*/
@@ -50,7 +51,8 @@
     align-content: center; /*o align-content é utilizado em contêineres flexíveis para alinhar e controlar o posicionamento do conteúdo no eixo transversal (vertical)
       quando há várias linhas de itens. Já o center é p/ centralizar o conteúdo verticalmente dentro do contêiner*/
     margin-bottom: 137px; /*espaçamento inferior*/
-   
+    justify-content: space-around;
+        
   }
   
   main li {
@@ -68,7 +70,7 @@
     border: 5px solid #000000;
     
   }
-
+/* RODAPÉ */
  
   footer {
     width: 100%;
