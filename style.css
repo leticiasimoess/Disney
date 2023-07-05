@@ -14,13 +14,13 @@
  header { /*define estilos para um elemento de cabeçalho no documento*/
     width: 100%; /*largura*/
     background-color: #1e1e1e; /*fundo de cor*/
-    height:20vh; /*altura*/
+    height:30vh; /*altura*/
   }
   
   .menu ul {/*lista não ordenada dentro do menu*/
     text-align: center;
     list-style: none;
-    padding-top: 68px;
+   
     width: 30vw;/*largura*/
   
   }
