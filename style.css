@@ -51,7 +51,7 @@
     align-content: center; /*o align-content é utilizado em contêineres flexíveis para alinhar e controlar o posicionamento do conteúdo no eixo transversal (vertical)
       quando há várias linhas de itens. Já o center é p/ centralizar o conteúdo verticalmente dentro do contêiner*/
     margin-bottom: 137px; /*espaçamento inferior*/
-    justify-content: space-around;
+    
         
   }
   
@@ -64,8 +64,11 @@
   }
 
  div img {
-    height:510px;
-    width: 353px;
+    
+      flex-wrap: wrap
+        justify-content: space-around
+        width: 88%
+        height: 138vh
     border-radius: 61px; /*borda circular*/
     border: 5px solid #000000;
     
