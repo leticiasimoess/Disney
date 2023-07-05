@@ -88,6 +88,6 @@
     display: inline-block;
   }
   footer li {
-    vertical-align: middle;
+    align-items: center;
     margin-right: 10px;/*margem direita */
   }
