@@ -13,12 +13,15 @@
   header { /*define estilos para um elemento de cabeçalho no documento*/
     width: 100%; /*largura*/
     background-color: #1e1e1e; /*fundo de cor*/
-    height: 157px; /*altura*/
+    height:20vh; /*altura*/
+  
   }
   
   .menu ul { /*lista não ordenada dentro do menu*/
-    text-align: center; /* alinha o texto ao centro */
-    padding-top: 68px; /*preenchimento superior*/
+    
+      list-style: none;
+        justify-content: space-around;
+        width: 30vw;
   }
   
   .menu li {/*estilos para os itens de list, dentro da classe menu*/
